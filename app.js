@@ -1,8 +1,14 @@
 const Koa = require('koa')
 const Router = require('@koa/router')
+const static = require('koa-static')
 
+const path = require('path')
 const app = new Koa()
 const router = new Router()
+
+app.use(
+  mount('/public', static(path.join(__dirname, './public')))
+)
 
 router.get('/', ctx => {
   ctx.body = 'home page'
