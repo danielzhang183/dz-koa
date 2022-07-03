@@ -1,0 +1,19 @@
+{
+  "name": "dz-koa",
+  "version": "1.0.0",
+  "description": "Learning Koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dylan Zhang",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielzhang183/dz-koa"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.4"
+  }
+}
